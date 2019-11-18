@@ -40,7 +40,7 @@ public static void main(String[] args) {
 			break;
 		}
 	}else{
-		System.out.println("输入的选择不再权限范围内");
+		System.out.println("请输入有效数字(0-4)");
 	}
 		
 	}while(flag);
