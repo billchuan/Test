@@ -1,14 +1,41 @@
 package com.gzeic.test;
 
+import java.util.Date;
+
 public class Main {
-	public static void main(String[] args) {
+	int num;
+	int studentId;
+	String name;
 
+	public Main(int num, int studentId,String name) {
+		this.num = num;
+		this.name = name;
+	    this.studentId=studentId;
+		
 	}
 
-	public class student {
-		int num;
-		int grade;
-		String name;
-		String age;
+	public int getNum() {
+		return num;
 	}
+
+	public void setNum(int num) {
+		this.num = num;
+	}
+
+	public int getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 }
