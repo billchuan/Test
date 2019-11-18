@@ -1,17 +1,14 @@
 package com.gzeic.test;
 
-import java.util.Date;
-
 public class Main {
 	int num;
 	int studentId;
 	String name;
 
-	public Main(int num, int studentId,String name) {
+	public Main(int num, int studentId, String name) {
 		this.num = num;
 		this.name = name;
-	    this.studentId=studentId;
-		
+		this.studentId = studentId;
 	}
 
 	public int getNum() {
