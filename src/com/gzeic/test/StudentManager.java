@@ -7,12 +7,16 @@ import java.util.Scanner;
 public class StudentManager {
 	static List<Main> mainList = new ArrayList<Main>();
 	static StudentManager manager = new StudentManager();
+
 	public static void main(String[] args) {
 		boolean flag = true;
-		Main user=new Main(1, 21500500, "王某");
+		Main user = new Main(1, 21500500, "王某");
+		Main user2 = new Main(2, 21800501, "刘某");
 		mainList.add(user);
+		mainList.add(user2);
 		do {
 			System.out.println("学生管理系统，选择功能");
+			System.out.println("本系统当前有" + mainList.size() + "条记录");
 			System.out.println("1:显示数据");
 			System.out.println("2:修改数据");
 			System.out.println("3:增加数据");
@@ -65,7 +69,7 @@ public class StudentManager {
 			System.out.print("请选择你要删除的数据:");
 			int input = sc.nextInt();
 			if (main.getNum() == input) {
-				System.out.print("请问是否删除序号为:" + input + "学号为:" + main.studentId + "姓名为:" + main.name + "的数据(y/n):");
+				System.out.print("请问是否删除序号为:" + input + ",学号为:" + main.studentId + ",姓名为:" + main.name + "的数据(y/n):");
 			} else {
 				System.out.println("未找到数据");
 			}
