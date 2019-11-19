@@ -5,11 +5,12 @@ import java.util.List;
 import java.util.Scanner;
 
 public class StudentManager {
-	List<Main> mainList = new ArrayList<Main>();
+	static List<Main> mainList = new ArrayList<Main>();
 	static StudentManager manager = new StudentManager();
-
 	public static void main(String[] args) {
 		boolean flag = true;
+		Main user=new Main(1, 21500500, "王某");
+		mainList.add(user);
 		do {
 			System.out.println("学生管理系统，选择功能");
 			System.out.println("1:显示数据");
