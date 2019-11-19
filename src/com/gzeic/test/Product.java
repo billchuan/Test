@@ -131,7 +131,7 @@ class Manager{
 	
 	public Manager(){
 		market = new SuperMarket();
-		file = new File("E:\\21810\\study\\market.txt");
+		file = new File("market.txt");
 	}
 	
 	public SuperMarket getMarket() {
