@@ -1,0 +1,22 @@
+登陆远程 首次配置文件
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+上传仓库
+git init---------创建本地仓库（如果有仓库不需要使用）
+git add .或者git add 文件路径 ----------储存文件
+git commit -m "first commit" ------------引号内自行打 添加备注
+git remote add origin https://github.com/billchuan/Test.git 连接远程仓库 网址为自己用户名和仓库名
+git push -u origin master---------------------上传到仓库分支 首次会输入用户名和密码
+
+更新内容先 
+git pull  -------------从仓库获取内容与本地作比对
+git status-------------查看查看相关文件的状态(绿色为储存，红色为未被储存）
+git add . 或者有修改的文件路径
+git commit -m "first commit" ------------引号内自行打 添加备注
+git remote add origin https://github.com/billchuan/Test.git(如果已经连接仓库可以直接上传)
+git push -u origin master
+
+
+
+获取仓库数据--------------git clone https://github.com/billchuan/Test.git
