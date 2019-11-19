@@ -56,6 +56,7 @@ public class StudentManager {
 				}
 			} else {
 				System.out.println("请输入有效数字(0-4)");
+				System.out.println("------------------------------------------------");
 			}
 
 		} while (flag);
@@ -72,6 +73,7 @@ public class StudentManager {
 				System.out.print("请问是否删除序号为:" + input + ",学号为:" + main.studentId + ",姓名为:" + main.name + "的数据(y/n):");
 			} else {
 				System.out.println("未找到数据");
+				break;
 			}
 			String select = sc.next();
 			if (select.equals("y")) {
@@ -128,6 +130,7 @@ public class StudentManager {
 
 			} else {
 				System.out.println("未找到数据");
+				break;
 			}
 		}
 	}
