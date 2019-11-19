@@ -1,4 +1,4 @@
-package whc.study;
+package com.gzeic.test;
 
 import java.util.Scanner;
 

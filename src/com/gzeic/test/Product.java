@@ -1,4 +1,4 @@
-package whc.study;
+package com.gzeic.test;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -131,7 +131,7 @@ class Manager{
 	
 	public Manager(){
 		market = new SuperMarket();
-		file = new File("D:\\ѧϰ\\21810\\project1\\src\\whc\\study\\market.txt");
+		file = new File("E:\\21810\\study\\market.txt");
 	}
 	
 	public SuperMarket getMarket() {
