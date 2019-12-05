@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Date;
 
-public class Tset {
+public class JdbcTest {
 	public static void main(String[] args) throws SQLException {
 		Statement stmt = null;
 		ResultSet rs = null;
